@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Halilam</title>
+        <link rel="stylesheet" href="../public/css/style.css">
+        <link rel="website icon" type="png" href="../public/images/hlLogo.png">
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    </head>
+
+    <body>
+        <img class="logo" src="../public/images/hlLogo.png" alt="Logo">
+        <nav class="navbar">
+            <a href="./index.html">About me</a>
+            <a href="#">Project</a>
+            <a href="./art.html">Artwork</a>
+            <a href="./adventure.html">Adventure</a>
+        </nav>
+        <hr>
+        
+<div class="filter-buttons">
+    <button class="filter-button active" onclick="filterProjects('all')">All</button>
+    <button class="filter-button" onclick="filterProjects('Mobile application')">Mobile Application</button>
+    <button class="filter-button" onclick="filterProjects('Web')">Web</button>
+</div>
+
+
+<div id="projects-container" class="projects">
+</div>
+
+<script src="/js/project.js"></script>
+
+
+
+    </body>
+</html>

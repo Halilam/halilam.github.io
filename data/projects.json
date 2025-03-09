@@ -1,0 +1,23 @@
+[
+    {
+      "title": "NinjaGato",
+      "image": "/images/ninjagato.png",
+      "description": "iOS game",
+      "link": "https://apps.apple.com/ca/app/ninjagato/id6739651051",
+      "category": "Mobile application"
+    },
+    {
+      "title": "Song collection",
+      "image": "/images/bp.png",
+      "description": "Dynamic page with AJAX, JSON, and APIs",
+      "link": "https://web322-black-pink.vercel.app",
+      "category": "Web"
+    },
+    {
+      "title": "E-commerce website exercise",
+      "image": "/images/ecommerce.png",
+      "description": "E-commerce with MongoDB and Postgres",
+      "link": "https://web322-shop-page.vercel.app/shop",
+      "category": "Web"
+    }
+]
